@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A jugar!</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ 
+</head>
+<body>
+    <style>
+        body { background-color: rgb(241, 226, 206); }
+       </style>
+     <header > 
+ 
+         <div class="logo">
+       <h1 class="titulo text-center my-4 ">FIONA </h1>
+       <h2 class="sub-titulo text-center my-4">Primavera - Verano 2021</h2>
+         
+         </div>	
+ 
+         <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+           <button class="navbar-toggler" type="button"data-toggle="collapse"data-target="#nav-principal" arial-label="NavegacionPrincipal">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+ 
+         <div id="nav-principal" class="collapse navbar-collapse">
+             <nav class="navegacion-principal nav justify-content-between container flex-column flex-lg-row text-center">
+               <a href="index.html">Inicio</a>
+               <a href="tendencias.html">Tendencias</a>
+               <a href="Peinado.html">Peinados</a>
+               <a href="Maquillaje.html">Maquillaje</a>
+               <a href="Contacto.html">Contacto</a>
+               <a href="A jugar.html">A jugar!</a>
+            </nav>
+         </div>
+         </nav>
+ 
+     </header>
+
+
+
+<div class="adivinanza">
+    <h2 class="titulo-adivinanza">Adivinanza</h2>
+    <hr>
+  
+    <form >
+        <div class="form-row">
+            <div class="col">
+                <label for="año-gol">¿En que año se creó la bikini?</label>
+                <input type="number" class="form-control" id="año-gol" required>
+            </div>
+        </div>
+        <div class="intentos">Intentos: <span id="numero-intentos">4</span></div>
+        <div class="pistas hidden">
+            Pistas: 
+        </div><br>
+        <button type="submit" class="btn btn-success" id="boton-adivinanza">Aceptar</button>
+    
+    </form>
+    <div class="alert hidden" role="alert" id="notificacion">
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
